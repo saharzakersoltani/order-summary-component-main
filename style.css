@@ -1,0 +1,98 @@
+/* 
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 /96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*:focus {
+  outline: none;
+  border: 2px solid hsl(245, 75%, 52%);
+}
+
+body {
+  font-size: 1.6em;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: hsl(223, 47%, 23%);
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  width: 30em;
+  margin: 0 auto;
+  margin-top: 4.8em;
+  margin-bottom: 4.8em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.part-one img {
+  width: 100%;
+}
+
+.part-two {
+  padding: 0 3.2em;
+}
+
+.part-two h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  letter-spacing: -0.04em;
+}
+
+.part-two--annual {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1.1em 1.2em;
+  border-radius: 11px;
+  margin: 1.6em 0;
+}
+
+.part-two p:nth-child(1) {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-bottom: 0.4em;
+}
+
+.part-two p {
+  color: hsl(224, 23%, 55%);
+}
+
+.change:link,
+.change:visited {
+  color: hsl(245, 75%, 52%);
+  text-decoration-color: hsl(223, 47%, 23%);
+  justify-self: end;
+  font-weight: 700;
+}
+
+.change:hover,
+.change:active {
+  cursor: pointer;
+}
+
+.proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
