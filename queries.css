@@ -1,0 +1,29 @@
+/* less than 468px */
+@media (max-width: 30em) {
+  .container {
+    width: 38rem;
+  }
+}
+
+/* less than 385px */
+@media (max-width: 27em) {
+  html {
+    font-size: 58%;
+  }
+
+  .container {
+    width: 35rem;
+  }
+
+  .part-two h1 {
+    font-size: 2.2rem;
+  }
+
+  .music {
+    width: 5rem;
+  }
+
+  .part-two--annual {
+    column-gap: 1.4rem;
+  }
+}

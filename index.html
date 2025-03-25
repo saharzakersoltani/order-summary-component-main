@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
     />
     <title>order summary component main</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link rel="icon" href="images/favicon-32x32.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +35,7 @@
               on any device anywhere you like!
             </p>
             <div class="part-two--annual">
-              <img src="images/icon-music.svg" alt="music icon" />
+              <img class="music" src="images/icon-music.svg" alt="music icon" />
               <div>
                 <p>Annual Plan</p>
                 <p>$59.99/year</p>
@@ -42,15 +43,17 @@
               <a
                 class="change"
                 href="#"
-                aria-details="By this link you can change the music"
+                aria-label="By this link you can change the music"
                 >change</a
               >
             </div>
             <div class="links-flex">
-              <a class="proceed" href="#" aria-details="Proceed to Payment"
+              <a class="proceed" href="#" aria-label="Proceed to Payment"
                 >Proceed to Payment</a
               >
-              <a href="#" aria-details="Cancle Order">Cancel Order</a>
+              <a class="cancle" href="#" aria-label="Cancle Order"
+                >Cancel Order</a
+              >
             </div>
           </div>
         </div>
